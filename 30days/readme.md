@@ -5,4 +5,5 @@
 5: factorial
 6: Trivial pgms like amstrong number, prime
 7: Array slicing
+8: Open file and print lines word by word
 
