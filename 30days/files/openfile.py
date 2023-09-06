@@ -9,11 +9,14 @@ def openfile (filename):
             for word in line.split():
                 print(word)
 
-#just open
-def openfile2(filename):
+#count number of lines
+def countlines(filename):
+    count = 0
     file2 = open(filename)
+    print(type(file2))
     for line in file2:
-        print(line)
+        count = count+1
+    return count
 
 if __name__=='__main__':
-    openfile2('filename1.txt')
+    print(countlines('filename1.txt'))
