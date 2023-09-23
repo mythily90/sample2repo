@@ -6,7 +6,6 @@ def findcommon(sts):
         for i in sts:
             if min[:k] != i[:k]:
                 passover=True
-            if passover:
                 break
         if not passover:
             k = k+1
