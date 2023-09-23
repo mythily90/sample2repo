@@ -23,4 +23,13 @@ Constraints:
 1 <= strs.length <= 200
 0 <= strs[i].length <= 200
 strs[i] consists of only lowercase English letters
+10. Simple authoritative dns server
+nc 0.0.0.0 8053
+get efg.com
+Server cant find domain efg.com
+put mythily.com 1.2.3.4
+Domain details added
+get mythily.com
+1.2.3.4
+^C
 
