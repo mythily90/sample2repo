@@ -31,5 +31,6 @@ put mythily.com 1.2.3.4
 Domain details added
 get mythily.com
 1.2.3.4
-^C
+11. Pgm10 Authoritative server using theading module
+12. To check whether give string is palindrome or symetrical
 
